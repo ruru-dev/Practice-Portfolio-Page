@@ -41,6 +41,23 @@ header>ul>li {
   line-height: 1.5;
 }
 
+.top-nav-bar {
+  background-color: rgb(248, 188, 197);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+nav > a {
+  color: white;
+  margin: auto 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
 .container-picture {
   grid-column: 3/-1;
   grid-row: 1/2;

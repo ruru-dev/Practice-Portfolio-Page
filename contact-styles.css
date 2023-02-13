@@ -50,10 +50,6 @@ form {
   position: relative;
 }
 
-label {
-  /* display: block; */
-}
-
 .input-label-top > label {
   display: block;
 }
@@ -97,4 +93,41 @@ button {
   height: 40px;
   border-radius: 8px;
   font-size: 20px;
+}
+
+@media(min-width: 1300px) {
+ .container-main {
+  width: 1300px;
+  margin: auto;
+ } 
+}
+
+@media(max-width: 700px) {
+  .container-form {
+    flex-wrap: nowrap;
+    height: auto;
+  }
+
+  .message {
+    margin-bottom: 20px;
+  }
+
+  button {
+    position: static;
+    margin: auto;
+  }
+
+  div.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .container-input {
+    width: 100%;
+  }
+
+  .contact-me-message {
+    left: 25%;
+  }
 }
