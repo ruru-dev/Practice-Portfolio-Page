@@ -1,0 +1,100 @@
+.top-nav-bar {
+  background-color: rgb(248, 188, 197);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+nav > a {
+  color: white;
+  margin: auto 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.contact-me-image {
+  height: 300px;
+  width: 100%;
+}
+
+.container-image {
+  position: relative;
+  text-align: center;
+}
+
+.contact-me-message {
+  position: absolute;
+  left: 40%;
+  bottom: 40%;
+  color: white;
+  font-family: 'Great Vibes', cursive;
+  font-size: 60px;
+}
+
+.container-form {
+  height: 500px;
+  background-color: whitesmoke;
+  border-radius: 60px;
+  margin: 40px;
+  padding: 50px;
+}
+
+form {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+label {
+  /* display: block; */
+}
+
+.input-label-top > label {
+  display: block;
+}
+
+textarea {
+  resize: none;
+}
+
+.container-input {
+  width: 50%;
+}
+
+.container-input > input, textarea {
+  width: 100%;
+}
+
+.container-check, .container-radio {
+  margin: 10px;
+}
+
+.message {
+  margin-bottom: 70px;
+}
+
+input, textarea {
+  border-style: none;
+}
+
+.input-label-top {
+  margin-top: 15px;
+}
+
+button {
+  position: absolute;
+  bottom:80px;
+  left: 50%;
+  background-color: rgb(230, 139, 154);
+  border-style: none;
+  color: white;
+  width: 150px;
+  height: 40px;
+  border-radius: 8px;
+  font-size: 20px;
+}

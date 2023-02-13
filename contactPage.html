@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Page</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="contact-styles.css">
+</head>
+<body>
+  <div class="container-main">
+    <nav class="top-nav-bar">
+      <a href="index.html">HOME</a>
+      <a href="">PORTFOLIO</a>
+      <a href="resume.html">RESUME</a>
+      <a href="aboutPage.html">ABOUT</a>
+    </nav>
+    <figure>
+      <div class="container-image">
+        <img class="contact-me-image" src="images/contact-page-image.jpg" alt="image not found">
+        <div class="contact-me-message">Contact Me</div>
+      </div>
+    </figure>
+
+    <div class="container-form">
+      <form action="results.html" method="GET" enctype="multipart/form-data">
+        <div class="input-label-top container-input">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div class="input-label-top container-input">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div class="input-label-top container-input message">
+          <label for="message">Message</label>
+          <textarea name="" id="" cols="30" rows="7" required></textarea>
+        </div>
+        <div class="container-check">
+          How did you hear about me?
+          <div>
+            <input type="checkbox" value="classmate" name="hearaboutme" id="classmate">
+            <label for="classmate"> Classmate</label>
+          </div>
+          <div>
+            <input type="checkbox" value="resume submission" name="hearaboutme" id="resumesubmission">
+            <label for="resumesubmission"> Resume submission</label>
+          </div>
+          <div>
+            <input type="checkbox" value="linkedin" name="hearaboutme" id="linkedin">
+            <label for="linkedin"> LinkedIn</label>
+          </div>
+          <div>
+            <input type="checkbox" value="coding academy recommendation" name="hearaboutme" id="coding-academy-recommendation">
+            <label for="coding-academy-recommendation">Coding academy recommendation</label>
+          </div>
+        </div> 
+        <div class="container-radio">
+          Do you want to be contacted back?
+          <div>
+            <input type="radio" name="contactback" id="contactback-yes">
+            <label for="contactback-yes">Yes</label>
+          </div>
+          <div>
+            <input type="radio" name="contactback" id="contactback-no">
+            <label for="contactback-no">No</label>
+          </div>
+          <div>
+            <label for="birthdaywish">Optional birthday wish</label>
+            <input type="date">
+          </div>
+        </div>
+        <div class="button">
+          <button type="submit">Submit</button>
+        </div>
+        <!-- <script src="scripts.js"></script> -->
+      </form> 
+    </div>
+  </div>
+</body>
+</html>

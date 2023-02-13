@@ -1,0 +1,106 @@
+body {
+  background-color: rgb(248, 244, 248);
+}
+
+.container-main {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 667px;
+}
+
+.top-nav-bar {
+  background-color: rgb(248, 188, 197);
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+nav > a {
+  color: white;
+  margin: auto 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container-main-grid {
+  display: grid;
+  height: 100%;
+  grid-template-areas:
+    "header header"
+    "image1 experience"
+    "philosophy image2";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 50% 50%;
+}
+
+.about-header {
+  grid-area: header;
+  background-color:rgb(248, 244, 248);
+  display: flex;
+  justify-content: center;
+}
+
+.about-header-item {
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  color: rgb(189, 78, 134);
+  margin: 20px 0px;
+}
+
+.experience-image {
+  grid-area: image1;
+}
+
+.experience-detail {
+  grid-area: experience;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.philosophy-detail {
+  grid-area: philosophy;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.philosophy-image {
+  grid-area: image2;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(248, 188, 197);
+  padding: 20px 0px;
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive;
+  letter-spacing: 5px;
+}
+
+h2 {
+  color: rgb(190, 156, 173);
+  padding: 0px 30px;
+  font-size: 20px;
+}
+
+img {
+  padding: 50px;
+  min-width: 600px;
+}
+
+@media(min-width: 1300px) {
+  .container-main {
+    width: 1300px;
+    margin: auto;
+  }
+}
