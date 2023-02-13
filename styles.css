@@ -115,4 +115,9 @@ a {
   .corner-image-bottom-left {
     display: none;
   }
+
+  #position-info {
+    letter-spacing: normal;
+    font-family: 'Great Vibes', cursive;
+  }
 }
